@@ -1,12 +1,11 @@
-
+import logo from './logo.svg';
 import './App.css';
-import Glasses from './Glasses/Glasses';
+import Glasses from './Glasses';
 
 function App() {
   return (
-    <div >
-      <Glasses/>
-      
+    <div className="App">
+      <Glasses />
     </div>
   );
 }
